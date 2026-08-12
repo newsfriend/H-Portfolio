@@ -23,7 +23,7 @@
         let a = (e) => e,
           r = document,
           i = r.currentScript;
-        if (t()) return;
+        if (t()) return;  
         let o = null != (n = null == i ? void 0 : i.dataset) ? n : {},
           l = d(o, "view"),
           s = d(o, "event"),
