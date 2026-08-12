@@ -27,7 +27,7 @@
         let o = null != (n = null == i ? void 0 : i.dataset) ? n : {},
           l = d(o, "view"),
           s = d(o, "event"),
-          u = d(o, "session")
+          u = d(o, "session")  
           c = null,
           p = null,
           f = !0;
