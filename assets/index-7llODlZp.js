@@ -11563,7 +11563,7 @@ var Wn = o((e) => {
                 r && (0, W.jsx)(`div`, { className: `ring final-ring` }),
                 (0, W.jsx)(`img`, {
                   src: `/images/logo.png`,
-                  alt: `TG Logo`,
+                  alt: `Harper Logo`,
                   className: `loader-logo`,
                   style: { borderRadius: `50%` },
                 }),
@@ -16577,15 +16577,15 @@ var fc = {
   Hc = [
     { name: `Home`, href: `#hero` },
     { name: `About`, href: `#about` },
-    { name: `Skill`, href: `#technology` },
-    { name: `Project`, href: `#project` },
+    { name: `Skills`, href: `#technology` },
+    { name: `Projects`, href: `#project` },
     { name: `Contact`, href: `#work-together` },
   ],
   Uc = {
     hero: `Home`,
     about: `About`,
-    technology: `Skill`,
-    project: `Project`,
+    technology: `Skills`,
+    project: `Projects`,
     "work-together": `Contact`,
   },
   Wc = () => {
@@ -16660,7 +16660,7 @@ var fc = {
                   children: (0, W.jsx)(`a`, {
                     href: `#hero`,
                     onClick: (e) => s(e, `#hero`, `Home`),
-                    className: `relative z-50 text-white font-bold text-xl tracking-tighter cursor-pointer p-2 block mix-blend-difference`,
+                    className: `header-logo relative z-50 text-white font-bold text-xl tracking-tighter cursor-pointer p-2 block mix-blend-difference`,
                     children: (0, W.jsx)(`span`, {
                       className: `text-sky-200`,
                       children: (0, W.jsx)(`img`, {
@@ -16674,7 +16674,7 @@ var fc = {
                   }),
                 }),
                 (0, W.jsx)(`div`, {
-                  className: `hidden lg:flex items-center gap-1 px-2 py-2 rounded-full border border-white/10 shadow-lg shadow-sky-400/10`,
+                  className: `nav-menu hidden lg:flex items-center gap-1 px-2 py-2 rounded-full border border-white/10 shadow-lg shadow-sky-400/10`,
                   style: {
                     backgroundColor: `rgba(255, 255, 255, ${Vc.navbarOpacity})`,
                     backdropFilter: Vc.navbarBlur,
@@ -60813,6 +60813,7 @@ var XD = (e, t) => {
       (0, W.jsxs)(`points`, {
         ref: n,
         scale: [a, a, a],
+        position: [0, 2, 0],
         children: [
           (0, W.jsxs)(`bufferGeometry`, {
             children: [
@@ -60843,11 +60844,11 @@ var XD = (e, t) => {
       })
     );
   },
-  $D = `louisemily640@gmail.com`,
+  $D = `tech.engineer.labs@gmail.com`,
   eO = `https://wa.me/12139944285`,
-  tO = `https://t.me/harper_0087`,
-  nO = `https://discord.gg/harper_0087`,
-  rO = `https://github.com/HarperCodeLabs`,
+  tO = `https://t.me/harper31587`,
+  nO = `https://discord.gg/harper31587`,
+  rO = `https://github.com/StackCodeLabs`,
   iO = [`AI & Full Stack Engineer`, `Reverse Engineer`],
   aO = 700,
   oO = 2500,
@@ -60912,7 +60913,7 @@ var XD = (e, t) => {
                   args: [`#050a14`],
                 }),
                 (0, W.jsx)(`ambientLight`, { intensity: 0.5 }),
-                (0, W.jsx)(QD, { isExpanded: !e, text: `HARPER` }),
+                (0, W.jsx)(QD, { isExpanded: !e, text: `ENGINEER` }),
                 (0, W.jsx)(OD, {
                   children: (0, W.jsx)(jD, {
                     luminanceThreshold: 0.2,
@@ -63945,7 +63946,7 @@ var Ij = [
                       children: [
                         (0, W.jsx)(`img`, {
                           src: `/images/MYPIC.jpg`,
-                          alt: `Harper Engineer`,
+                          alt: `Engineer`,
                         }),
                         (0, W.jsx)(`div`, {
                           className: Fj.imageCaption,
@@ -64422,16 +64423,6 @@ var Uj = () => {
       visitShort: `Dermaiq`,
     },
     {
-      name: `Tinder Bot`,
-      cat: `Automation`,
-      desc: `Python automation for Tinder-style swiping and session handling—rules-based actions, scheduling, and account workflow helpers.`,
-      tools: `Python, Selenium/Automation`,
-      skillsDesc: ``,
-      image: `/images/tinder-bot.webp`,
-      link: `https://github.com/HarperCodeLabs/tinder-bot`,
-      visitShort: `Tinder Bot`,
-    },
-    {
       name: `UberEats Account Generation Bot Manager`,
       cat: `Reverse Engineering, FullStack`,
       desc: `Automated UberEats account generation system with a Next.js dashboard and Python FastAPI backend.`,
@@ -64441,6 +64432,17 @@ var Uj = () => {
       link: `#`,
       shareUrl: !1,
       visitShort: `UberEats Account Generation Bot Manager`,
+    },
+    {
+      name: `Prismetric`,
+      cat: `AI Services`,
+      desc: `Digital transformation services with AI development, data engineering, and Vitara vibe coding platform.`,
+      tools: `Python,Gen AI,Next.js,ML`,
+      skillsDesc: ``,
+      image: `/images/Prismetric.png`,
+      link: ``,
+      liveUrl: `https://dermaiq.org/`,
+      visitShort: `Prismetric`,
     },
     {
       name: `MedMonitor Health Platform`,
@@ -64454,14 +64456,15 @@ var Uj = () => {
       visitShort: `MedMonitor`,
     },
     {
-      name: `Instagram Automation`,
-      cat: `Social Automation`,
-      desc: `Instagram growth and operations automation—follow/unfollow flows, engagement scripts, and session management for scaled accounts.`,
-      tools: `Python, Instagram API/Automation, Scheduling`,
+      name: `AICompetence`,
+      cat: `AI Services`,
+      desc: `AI education blog covering quantum AI, edge computing, MLOps, and emerging AI technologies.`,
+      tools: `WordPress,React,Content CMS,Typescript`,
       skillsDesc: ``,
-      image: `/images/Instagram-Automation.png`,
-      link: `https://github.com/HarperCodeLabs/Instagram-Automation`,
-      visitShort: `Instagram Bot`,
+      image: `/images/AICompetence.png`,
+      link: ``,
+      liveUrl: `https://aicompetence.org/`,
+      visitShort: `AICompetence`,
     },
     {
       name: `Dating App`,
@@ -64470,19 +64473,20 @@ var Uj = () => {
       tools: `React, TypeScript, Tailwind, REST API`,
       skillsDesc: ``,
       image: `/images/dating-app-client.jpg`,
-      link: `https://github.com/HarperCodeLabs/dating-app-client`,
+      link: `https://github.com/StackCodeLabs/dating-app-client`,
       visitShort: `Dating Client`,
     },
-    {
-      name: `Dating App`,
-      cat: `Full Stack`,
-      desc: `Full-stack dating product with profiles, matching flows, and real-time messaging—backend services paired with a modern client experience.`,
-      tools: `Node.js, React, MongoDB, REST API, WebSockets`,
-      skillsDesc: ``,
-      image: `/images/Dating-App.jpg`,
-      link: `https://github.com/HarperCodeLabs/Dating-App`,
-      visitShort: `Dating App`,
+      {
+      name: `MERN Ecommerce Site`,
+      cat: `E-Commerce`,
+      desc: `Feature-rich MERN shop with Redux state, cookie-based auth, admin dashboard for catalog/orders/users/reviews, Stripe checkout, and Cloudinary uploads.`,
+      tools: `React, Redux, Node.js, Express, MongoDB`,
+      skillsDesc: `Covers filters, search, pagination, ratings/reviews, and end-to-end cart/checkout; README also references a deployed Heroku demo alongside the repo.`,
+      image: `/images/Full-Ecommerce.png`,
+      link: `https://github.com/StackCodeLabs/Full-Ecommerce-Site`,
+      visitShort: `ShopX MERN`,
     },
+     
     {
       name: `Jeetwin`,
       cat: `Full Stack`,
@@ -64501,7 +64505,7 @@ var Uj = () => {
       tools: `React, Vite, Tailwind CSS, JavaScript, UI Animation`,
       skillsDesc: ``,
       image: `/images/brainwave.png`,
-      link: `https://github.com/HarperCodeLabs/brainwave`,
+      link: `https://github.com/StackCodeLabs/brainwave`,
       visitShort: `Brainwave`,
     },
     {
@@ -64511,7 +64515,7 @@ var Uj = () => {
       tools: `JavaScript, Node.js, AI APIs, Automation`,
       skillsDesc: ``,
       image: `/images/Dominate-AI.png`,
-      link: `https://github.com/HarperCodeLabs/Dominate-AI`,
+      link: `https://github.com/StackCodeLabs/Dominate-AI`,
       visitShort: `Dominate AI`,
     },
     {
@@ -64526,46 +64530,28 @@ var Uj = () => {
       visitShort: `Rejuve.AI`,
     },
     {
-      name: `Face Swap`,
-      cat: `AI Vision`,
-      desc: `Computer-vision toolkit for face detection/recognition, landmark outlining, avatar/composition effects, and face swapping.`,
-      tools: `Python, OpenCV, Dlib,TensorFlow, OCR`,
-      skillsDesc: `Combines classic CV (OpenCV/Dlib/face_recognition) with ML pipelines for emotion/gender recognition and supporting utilities for face swapping and restoration.`,
-      image: `/images/face-swap.png`,
-      link: `https://github.com/HarperCodeLabs/face-swap-ai`,
-      visitShort: `Face Swap`,
-    },
-    {
-      name: `Match Extension`,
-      cat: `Browser Extension`,
-      desc: `Chrome extension that augments dating-site workflows with in-browser controls, filters, and faster multi-session operations.`,
-      tools: `JavaScript, Chrome Extension API, DOM Automation`,
+   name: `Stable Diffusion Web`,
+      cat: ``,
+      desc: `Free online AI image generator using Stable Diffusion XL for creating photo-realistic art from text prompts.`,
+      tools: ` Python,SDXL,React,GPU`,
       skillsDesc: ``,
-      image: `/images/match-extension.png`,
-      link: `https://github.com/HarperCodeLabs/match-extension`,
-      visitShort: `Match Extension`,
+      image: `/images/Stable Diffusion Web.png`,
+      link: ``,
+      liveUrl: `https://www.rejuve.ai/`,
+      visitShort: `Stable Diffusion Web`,
     },
     {
-      name: `Full-Stack E-Commerce MERN`,
-      cat: `E-Commerce`,
-      desc: `MERN storefront with a split React frontend and Node backend: MongoDB + JWT-style auth config, Cloudinary-backed product imagery, and env-driven API/frontend wiring.`,
-      tools: `MongoDB, Express, React, Node.js, Cloudinary, JWT Config, REST API`,
-      skillsDesc: `README documents backend/frontend .env patterns (Mongo URI, token secret, frontend URL, Cloudinary) and media workflow for a full-stack commerce build.`,
-      image: `/images/E-commerce-MERN.png`,
-      link: `https://github.com/HarperCodeLabs/Full-Stack-E-Commerce-MERN-APP`,
-      visitShort: `MERN E-Commerce`,
+      name: `WOW Infotech`,
+      cat: `AI Services`,
+      desc: `AI-powered software development and IT staff augmentation for startups with 165+ software projects delivered.`,
+      tools: `React,Node.js,AI/ML,Typescript`,
+      skillsDesc: ``,
+      image: `/images/wowinfotech.png`,
+      link: ``,
+      liveUrl: `https://wowinfotech.org/`,
+      visitShort: `WOW Infotech`,
     },
-    {
-      name: `MERN Ecommerce Site`,
-      cat: `E-Commerce`,
-      desc: `Feature-rich MERN shop with Redux state, cookie-based auth, admin dashboard for catalog/orders/users/reviews, Stripe checkout, and Cloudinary uploads.`,
-      tools: `React, Redux, Node.js, Express, MongoDB`,
-      skillsDesc: `Covers filters, search, pagination, ratings/reviews, and end-to-end cart/checkout; README also references a deployed Heroku demo alongside the repo.`,
-      image: `/images/Full-Ecommerce.png`,
-      link: `https://github.com/HarperCodeLabs/Full-Ecommerce-Site`,
-      visitShort: `ShopX MERN`,
-    },
-    {
+     {
       name: `Kongregate Gaming Platform`,
       cat: ``,
       desc: `Developed and maintained web applications for a major online gaming platform. Created scalable databases for gaming services, reducing server overload incidents by 43%. Cut development time by 20% through agile methodologies.`,
@@ -64575,6 +64561,26 @@ var Uj = () => {
       link: ``,
       liveUrl: `https://www.kongregate.com/`,
       visitShort: `Kongregate`,
+    },
+ {
+      name: `Dating App`,
+      cat: `Full Stack`,
+      desc: `Full-stack dating product with profiles, matching flows, and real-time messaging—backend services paired with a modern client experience.`,
+      tools: `Node.js, React, MongoDB, REST API, WebSockets`,
+      skillsDesc: ``,
+      image: `/images/Dating-App.jpg`,
+      link: `https://github.com/StackCodeLabs/Dating-App`,
+      visitShort: `Dating App`,
+    },
+ {
+      name: `Full-Stack E-Commerce MERN`,
+      cat: `E-Commerce`,
+      desc: `MERN storefront with a split React frontend and Node backend: MongoDB + JWT-style auth config, Cloudinary-backed product imagery, and env-driven API/frontend wiring.`,
+      tools: `MongoDB, Express, React, Node.js, Cloudinary, JWT Config, REST API`,
+      skillsDesc: `README documents backend/frontend .env patterns (Mongo URI, token secret, frontend URL, Cloudinary) and media workflow for a full-stack commerce build.`,
+      image: `/images/E-commerce-MERN.png`,
+      link: `https://github.com/StackCodeLabs/Full-Stack-E-Commerce-MERN-APP`,
+      visitShort: `MERN E-Commerce`,
     },
     {
       name: `Kryptomon`,
@@ -64594,7 +64600,7 @@ var Uj = () => {
       tools: `Python, Automation, Proxies, Batch Jobs`,
       skillsDesc: ``,
       image: `/images/Bulk-Tinder-Creator.png`,
-      link: `https://github.com/HarperCodeLabs/Bulk-Tinder-Creator`,
+      link: `https://github.com/StackCodeLabs/Bulk-Tinder-Creator`,
       visitShort: `Bulk Creator`,
     },
     {
@@ -64615,7 +64621,7 @@ var Uj = () => {
       tools: `Python, Browser Automation, Proxies`,
       skillsDesc: ``,
       image: `/images/twitter-account-creation-bot.png`,
-      link: `https://github.com/HarperCodeLabs/twitter-account-creation-bot`,
+      link: `https://github.com/StackCodeLabs/twitter-account-creation-bot`,
       visitShort: `Twitter Bot`,
     },
     {
@@ -64625,7 +64631,7 @@ var Uj = () => {
       tools: `FastAPI, Next.js, TypeScript, Tailwind, MongoDB, Socket.io/SSE, Redis`,
       skillsDesc: `README outlines a Python + Next.js stack with Axios clients, session/token handling, and optional Redis for queues—focused on scalable API-driven control panels.`,
       image: `/images/okcupid.png`,
-      link: `https://github.com/HarperCodeLabs/okcupid-swiping-manager`,
+      link: `https://github.com/StackCodeLabs/okcupid-swiping-manager`,
       visitShort: `Swiping Manager`,
     },
   ];
@@ -64929,16 +64935,13 @@ var hM = {
           ],
         }),
         (0, W.jsxs)(`div`, {
-          className: `max-w-7xl mx-auto px-6 w-full flex flex-col justify-between h-full relative z-10`,
+          className: `max-w-7xl mx-auto px-6 w-full flex flex-col justify-center h-full relative z-10`,
           children: [
             (0, W.jsxs)(`div`, {
-              className: `flex flex-col md:flex-row justify-between items-start gap-12 md:gap-0 pt-10`,
+              className: `flex flex-col justify-center items-center gap-8 pt-10`,
               children: [
-                (0, W.jsx)(`div`, {
-                  className: `flex flex-col gap-8`,
-                }),
                 (0, W.jsxs)(`div`, {
-                  className: `flex gap-4 self-start md:self-end mb-2`,
+                  className: `flex gap-8 justify-center mb-2 contact-gap`,
                   children: [
                     (0, W.jsx)(ac, {
                       children: (0, W.jsx)(`a`, {
@@ -65000,7 +65003,7 @@ var hM = {
                   children: [
                     (0, W.jsxs)(`p`, {
                       className: `text-gray-500 text-sm`,
-                      children: `© 2026  HARPER`,
+                      children: `© 2026  ENGINEER`,
                     }),
                     (0, W.jsx)(`p`, {
                       className: `text-gray-600 text-sm hidden md:block`,

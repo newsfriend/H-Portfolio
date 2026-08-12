@@ -2614,3 +2614,38 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+@media (width<770px) {
+  ._footer_ufweb_1 .flex.gap-4.self-start.md\:self-end.mb-2 {
+    align-self: center !important;
+  }
+
+  ._footer_ufweb_1 > div:nth-of-type(2) > div:first-child {
+    align-items: center !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+    justify-content: center !important;
+    padding-top: 4.75rem !important;
+    width: 100%;
+  }
+
+  ._footer_ufweb_1 > div:nth-of-type(2) > div:first-child > div:last-child {
+    align-self: center !important;
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact-gap {
+    gap: 1rem !important;
+  }
+}
+
+@media (min-width: 451px) {
+  .contact-gap {
+    gap: 2rem !important;
+  }
+}
