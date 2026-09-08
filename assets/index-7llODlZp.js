@@ -60846,9 +60846,9 @@ var XD = (e, t) => {
   },
   $D = `tech.engineer.labs@gmail.com`,
   eO = `https://wa.me/12139944285`,
-  tO = `https://t.me/harper31587`,
-  nO = `https://discord.gg/harper31587`,
-  rO = `https://github.com/StackCodeLabs`,
+  tO = `https://t.me/healer_pros`,
+  nO = `https://discord.gg/darkhealer87`,
+  rO = `https://github.com/newsfriend`,
   iO = [`AI & Full Stack Engineer`, `Reverse Engineer`],
   aO = 700,
   oO = 2500,
@@ -64473,7 +64473,7 @@ var Uj = () => {
       tools: `React, TypeScript, Tailwind, REST API`,
       skillsDesc: ``,
       image: `/images/dating-app-client.jpg`,
-      link: `https://github.com/StackCodeLabs/dating-app-client`,
+      link: `https://github.com/newsfriend/dating-app-client`,
       visitShort: `Dating Client`,
     },
       {
@@ -64483,7 +64483,7 @@ var Uj = () => {
       tools: `React, Redux, Node.js, Express, MongoDB`,
       skillsDesc: `Covers filters, search, pagination, ratings/reviews, and end-to-end cart/checkout; README also references a deployed Heroku demo alongside the repo.`,
       image: `/images/Full-Ecommerce.png`,
-      link: `https://github.com/StackCodeLabs/Full-Ecommerce-Site`,
+      link: `https://github.com/newsfriend/Full-Ecommerce-Site`,
       visitShort: `ShopX MERN`,
     },
      
@@ -64505,7 +64505,7 @@ var Uj = () => {
       tools: `React, Vite, Tailwind CSS, JavaScript, UI Animation`,
       skillsDesc: ``,
       image: `/images/brainwave.png`,
-      link: `https://github.com/StackCodeLabs/brainwave`,
+      link: `https://github.com/newsfriend/brainwave`,
       visitShort: `Brainwave`,
     },
     {
@@ -64515,7 +64515,7 @@ var Uj = () => {
       tools: `JavaScript, Node.js, AI APIs, Automation`,
       skillsDesc: ``,
       image: `/images/Dominate-AI.png`,
-      link: `https://github.com/StackCodeLabs/Dominate-AI`,
+      link: `https://github.com/newsfriend/Dominate-AI`,
       visitShort: `Dominate AI`,
     },
     {
@@ -64569,7 +64569,7 @@ var Uj = () => {
       tools: `Node.js, React, MongoDB, REST API, WebSockets`,
       skillsDesc: ``,
       image: `/images/Dating-App.jpg`,
-      link: `https://github.com/StackCodeLabs/Dating-App`,
+      link: `https://github.com/newsfriend/Dating-App`,
       visitShort: `Dating App`,
     },
  {
@@ -64579,7 +64579,7 @@ var Uj = () => {
       tools: `MongoDB, Express, React, Node.js, Cloudinary, JWT Config, REST API`,
       skillsDesc: `README documents backend/frontend .env patterns (Mongo URI, token secret, frontend URL, Cloudinary) and media workflow for a full-stack commerce build.`,
       image: `/images/E-commerce-MERN.png`,
-      link: `https://github.com/StackCodeLabs/Full-Stack-E-Commerce-MERN-APP`,
+      link: `https://github.com/newsfriend/Full-Stack-E-Commerce-MERN-APP`,
       visitShort: `MERN E-Commerce`,
     },
     {
@@ -64600,7 +64600,7 @@ var Uj = () => {
       tools: `Python, Automation, Proxies, Batch Jobs`,
       skillsDesc: ``,
       image: `/images/Bulk-Tinder-Creator.png`,
-      link: `https://github.com/StackCodeLabs/Bulk-Tinder-Creator`,
+      link: `https://github.com/newsfriend/Bulk-Tinder-Creator`,
       visitShort: `Bulk Creator`,
     },
     {
@@ -64632,7 +64632,7 @@ var Uj = () => {
       tools: `FastAPI, Next.js, TypeScript, Tailwind, MongoDB, Socket.io/SSE, Redis`,
       skillsDesc: `README outlines a Python + Next.js stack with Axios clients, session/token handling, and optional Redis for queues—focused on scalable API-driven control panels.`,
       image: `/images/okcupid.png`,
-      link: `https://github.com/StackCodeLabs/okcupid-swiping-manager`,
+      link: `https://github.com/newsfriend/okcupid-swiping-manager`,
       visitShort: `Swiping Manager`,
     },
   ];
