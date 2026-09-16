@@ -60846,7 +60846,7 @@ var XD = (e, t) => {
   },
   $D = `tech.engineer.labs@gmail.com`,
   eO = `https://wa.me/12139944285`,
-  tO = `https://t.me/healer_pros`,
+  tO = `https://t.me/aaa_8710`,
   nO = `https://discord.gg/darkhealer87`,
   rO = `https://github.com/newsfriend`,
   iO = [`AI & Full Stack Engineer`, `Reverse Engineer`],
